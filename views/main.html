@@ -3,7 +3,7 @@
 </div>
 
 <h4>Latest Chats:</h4>
-<div class="jumbotron">
+<div class="jumbotron" ng-controller="MessageCtrl">
 
 	<form ng-submit="addMessage(newMessage)">
 		<input ng-model="newMessage" type="text" placeholder="Hello!">
